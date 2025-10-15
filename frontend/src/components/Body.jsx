@@ -39,7 +39,7 @@ function Body(){
                     </form>
                 </div>
                 <div className="border m-5 h-[400px]">
-                    {error && <div>{error}</div>}
+                    {error && <div className="text-center p-5">{error}</div>}
                     {
                         weather && (
                             <div className="m-5 h-[350px] flex flex-col justify-between text-center">
